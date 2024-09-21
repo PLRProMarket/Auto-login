@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto Login</title>
+    <script>
+        window.onload = function() {
+            // انتظر حتى يتم تحميل جميع العناصر في الصفحة
+            setTimeout(function() {
+                // ادخل بيانات تسجيل الدخول
+                document.querySelector('input[name="username"]').value = 'PLR%20Pro%20Marjet';
+                document.querySelector('input[name="password"]').value = 'S7ekHpv9@uwcHjt';
+                // اضغط على زر تسجيل الدخول
+                document.querySelector('button[type="submit"]').click();
+            }, 1000); // تأخير لمدة ثانية واحدة لتأكد من تحميل العناصر
+        };
+    </script>
+</head>
+<body>
+    <form action="https://rankerfox.com/login" method="post">
+        <input type="text" name="username" />
+        <input type="password" name="password" />
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
